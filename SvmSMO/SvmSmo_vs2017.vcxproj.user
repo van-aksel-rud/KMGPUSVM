@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LocalDebuggerCommandArguments>--target-label 8 --learn-blocks 1 --learn-files d:\ML_data\MNIST_LeCun\train  --test-files d:\ML_data\MNIST_LeCun\test --test-block-num 2 --rbf-gamma 2.2 --kernel-C 2000 --kernel-cache 100</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerCommand>$(SolutionDir)Release\SvmSmo.exe</LocalDebuggerCommand>
+  </PropertyGroup>
+</Project>
